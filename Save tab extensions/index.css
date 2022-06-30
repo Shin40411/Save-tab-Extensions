@@ -1,0 +1,58 @@
+body {
+   margin: 0;
+   padding: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   min-width: 400px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #5f9341;
+    background-color: aliceblue;
+    width: 100%;
+    margin-bottom: 4px;
+    box-sizing: border-box;  /* make width not overflow with padding */
+}
+
+button {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #5f9341;
+    border: 1px solid #5f9341;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+#input-btn:hover {
+    color: #5f9341;
+    background-color: #fff;
+}
+
+#tab-btn:hover {
+    color: #5f9341;
+    background-color: #fff;
+}
+
+#del-btn {
+    background-color: #fff;
+    color: #5f9341;
+}
+
+#del-btn:hover {
+    color: #fff;
+    background-color: #5f9341;
+}
+
+#ul-el {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+#ul-el li {
+    margin-top: 5px;
+}
+
+#ul-el a {
+    color: #5f9341;
+}
